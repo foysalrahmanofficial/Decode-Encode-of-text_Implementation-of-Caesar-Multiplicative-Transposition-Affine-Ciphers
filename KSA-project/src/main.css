@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght,ELGR,ELSH@384,1.4,2.9&family=Rubik+Iso&family=Tilt+Prism&display=swap");
+
+body {
+  background-color: #532b39; /* Dark blue background */
+}
+
+
+.nav-elements {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  margin-right: 9px;
+  margin-bottom: 15px;
+}
+
+.nav-link {
+  background: #252388; 
+  box-shadow: 0 8px 32px 0 rgba(4, 6, 54, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid #1c2a42; 
+}
+
+.nav-link:hover {
+  background-color: #ff8c00; /* Orange hover color */
+  color: white;
+}
+
+.tab-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.algorithms {
+  margin-bottom: 50px;
+}
+
+#my-tab-content {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 60%;
+  background: rgba(23, 17, 49, 0.5); /* Purple background with transparency */
+  box-shadow: 0 8px 32px 0 rgba(21, 26, 106, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.tab-pane {
+  width: 80%;
+}
+
+h1 {
+  padding-bottom: 25px;
+  color: #32d432;
+}
+
+label {
+  color: #32d432;
+}
+
+.form-control {
+  background-color: rgb(242, 242, 242);
+  color: #050816;
+  border: 1px dotted #0dfd41;
+}
+
+.tab-pane > button {
+  padding: 5px 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+
+.tab-pane > button:hover {
+  background-color: #a80f0f;
+  transition: all 0.2s;
+}
